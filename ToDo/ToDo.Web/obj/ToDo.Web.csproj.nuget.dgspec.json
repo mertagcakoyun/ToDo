@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.Web\\ToDo.Web.csproj": {}
+    "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Web\\ToDo.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.Business\\ToDo.Business.csproj": {
+    "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Business\\ToDo.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.Business\\ToDo.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Business\\ToDo.Business.csproj",
         "projectName": "ToDo.Business",
-        "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.Business\\ToDo.Business.csproj",
+        "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Business\\ToDo.Business.csproj",
         "packagesPath": "C:\\Users\\Medyasoft Digital\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.Business\\obj\\",
+        "outputPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj"
+              "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj": {
+    "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj",
         "projectName": "ToDo.DataAccess",
-        "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj",
+        "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Medyasoft Digital\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -89,8 +89,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj": {
-                "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj"
+              "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj": {
+                "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj"
               }
             }
           }
@@ -122,14 +122,14 @@
         }
       }
     },
-    "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj": {
+    "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj",
         "projectName": "ToDo.Entities",
-        "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj",
+        "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj",
         "packagesPath": "C:\\Users\\Medyasoft Digital\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.Entities\\obj\\",
+        "outputPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -177,14 +177,14 @@
         }
       }
     },
-    "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.Web\\ToDo.Web.csproj": {
+    "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Web\\ToDo.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.Web\\ToDo.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Web\\ToDo.Web.csproj",
         "projectName": "ToDo.Web",
-        "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.Web\\ToDo.Web.csproj",
+        "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Web\\ToDo.Web.csproj",
         "packagesPath": "C:\\Users\\Medyasoft Digital\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.Web\\obj\\",
+        "outputPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -203,8 +203,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.Business\\ToDo.Business.csproj": {
-                "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\ToDo\\ToDo.Business\\ToDo.Business.csproj"
+              "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Business\\ToDo.Business.csproj": {
+                "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Business\\ToDo.Business.csproj"
               }
             }
           }

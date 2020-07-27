@@ -8,4 +8,8 @@
     <ProjectReference Include="..\ToDo.Entities\ToDo.Entities.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Concrete\EntityFrameworkCore\Context\" />
+  </ItemGroup>
+
 </Project>
