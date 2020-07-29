@@ -5,29 +5,29 @@ using ToDo.Entities.Concrete;
 
 namespace ToDo.DataAccess.Concrete.EntityFrameworkCore.Repositories
 {
-    public class EfBusinessRepository : IBusinessBranch
+    class EfUserRepository : IUserBranch
     {
-        public void Delete(Business table)
+        public void Delete(User table)
         {
             throw new NotImplementedException();
         }
 
-        public List<Business> GetAll()
+        public List<User> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Business GetWithId(int id)
+        public User GetWithId(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void Save(Business table)
+        public void Save(User table)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Business table)
+        public void Update(User table)
         {
             throw new NotImplementedException();
         }

@@ -1,16 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using ToDo.Entities.Concrete;
 
 namespace ToDo.DataAccess.Interfaces
 {
     public interface IBusinessBranch
     {
-        void SaveBusiness(Business business);
-        void DeleteBusiness(Business business);
-        void UpdateBusiness(Business business);
-        Business BringBusinessWithID(int id);
-        List<Business> GetAllBusiness();
+        void Save(Business table);
+        void Delete(Business table);
+        void Update(Business table);
+        Business GetWithId(int id);
+        List<Business> GetAll();
     }
 }
