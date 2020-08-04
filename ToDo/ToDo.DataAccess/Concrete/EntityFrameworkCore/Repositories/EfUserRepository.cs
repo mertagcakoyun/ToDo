@@ -1,35 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using ToDo.DataAccess.Concrete.EntityFrameworkCore.Contexts;
 using ToDo.DataAccess.Interfaces;
 using ToDo.Entities.Concrete;
 
 namespace ToDo.DataAccess.Concrete.EntityFrameworkCore.Repositories
 {
-    class EfUserRepository : IUserBranch
+    public class EfUserRepository : EfGenericRepository<User>, IUserDal
     {
-        public void Delete(User table)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<User> GetAll()
-        {
-            throw new NotImplementedException();
-        }
-
-        public User GetWithId(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Save(User table)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Update(User table)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }
