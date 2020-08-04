@@ -7,7 +7,7 @@ using ToDo.Entities.Concrete;
 
 namespace ToDo.DataAccess.Concrete.EntityFrameworkCore.Repositories
 {
-    public class EfBusinessRepository : EfGenericRepository<Business>, IBusinessDal
+    public class EfTaskRepository : EfGenericRepository<Task>, ITaskDal
     {
       
     }

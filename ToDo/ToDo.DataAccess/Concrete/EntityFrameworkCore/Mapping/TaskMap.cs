@@ -7,9 +7,9 @@ using ToDo.Entities.Concrete;
 
 namespace ToDo.DataAccess.Concrete.EntityFrameworkCore.Mapping
 {
-    class BusinessMap : IEntityTypeConfiguration<Business>
+    class TaskMap : IEntityTypeConfiguration<Task>
     {
-        public void Configure(EntityTypeBuilder<Business> builder)
+        public void Configure(EntityTypeBuilder<Task> builder)
         {
             builder.HasKey(I => I.Id);
             builder.Property(I => I.Id).UseIdentityColumn();

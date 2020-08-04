@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.DataAccess", "ToDo.DataAccess\ToDo.DataAccess.csproj", "{3592CDE2-E495-4A16-B77E-381C8558E412}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.DataAccess", "ToDo.DataAccess\ToDo.DataAccess.csproj", "{3592CDE2-E495-4A16-B77E-381C8558E412}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Business", "ToDo.Business\ToDo.Business.csproj", "{481754ED-E6CD-4B0A-9815-7F2B3ADE2593}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Business", "ToDo.Business\ToDo.Business.csproj", "{481754ED-E6CD-4B0A-9815-7F2B3ADE2593}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Entities", "ToDo.Entities\ToDo.Entities.csproj", "{AFEE2F3B-0484-4749-A8F4-5A93DD87A0D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Entities", "ToDo.Entities\ToDo.Entities.csproj", "{AFEE2F3B-0484-4749-A8F4-5A93DD87A0D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Web", "ToDo.Web\ToDo.Web.csproj", "{A1FE129D-BC14-4271-9354-052C44300BA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Web", "ToDo.Web\ToDo.Web.csproj", "{A1FE129D-BC14-4271-9354-052C44300BA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

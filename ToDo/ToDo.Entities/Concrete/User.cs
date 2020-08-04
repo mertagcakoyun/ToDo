@@ -13,6 +13,6 @@ namespace ToDo.Entities.Concrete
 
         public int UserId { get; set; }
         public User UserObj { get; set; }
-        public List<Business> BusinessList { get; set; }
+        public List<Task> BusinessList { get; set; }
     }
 }

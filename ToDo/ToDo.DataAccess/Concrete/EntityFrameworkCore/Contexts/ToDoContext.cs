@@ -19,11 +19,11 @@ namespace ToDo.DataAccess.Concrete.EntityFrameworkCore.Contexts
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
            modelBuilder.ApplyConfiguration(new UserMap());
-           modelBuilder.ApplyConfiguration(new BusinessMap());
+           modelBuilder.ApplyConfiguration(new TaskMap());
         }
 
         public DbSet<User> Users { get; set; }  
-        public DbSet<Business> Businesses { get; set; }
+        public DbSet<Task> Businesses { get; set; }
 
     }
         

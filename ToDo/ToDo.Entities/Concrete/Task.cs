@@ -1,11 +1,9 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using ToDo.Entities.Interfaces;
 
 namespace ToDo.Entities.Concrete
 {
-    public class Business : ITable
+    public class Task : ITable
     {
  
         public int Id { get; set; }

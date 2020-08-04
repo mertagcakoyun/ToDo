@@ -3,7 +3,7 @@ using ToDo.Entities.Concrete;
 
 namespace ToDo.DataAccess.Interfaces
 {
-    public interface IBusinessDal : IGenericDal<Business>
+    public interface ITaskDal : IGenericDal<Task>
     {
         
     }
