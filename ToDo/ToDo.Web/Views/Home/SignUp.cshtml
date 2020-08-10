@@ -1,0 +1,23 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>SIGN IN PAGE</title>
+    </head>
+    <body>
+        <form class="w-50 mx-auto mt-5 shadow" method="post" asp-action="SignIn2">
+            <input type="text" class="form-control" name="Ad" value="" />
+            <span asp-validation-for="Ad" class="text-danger"></span>
+            <button type="submit">Ok</button>
+            <div asp-validation-summary="ModelOnly" class="text-info">
+
+            </div>
+        </form>
+
+        <script src="~/jquery/jquery.js"></script>
+        <script src="~/jqueryValidate/jquery.validate.min.js"></script>
+        <script src="~/jqueryUnob/jquery.validate.unobtrusive.min.js"></script>
+    </body>
+    </html>
