@@ -23,8 +23,25 @@
       "destination": "wwwroot/jquery/",
       "files": [
         "jquery.min.js",
+<<<<<<< HEAD
         "jquery.min.map"
       ]
+=======
+        "jquery.min.map",
+        "jquery.js"
+      ]
+    },
+    {
+      "library": "jquery-validate@1.19.2",
+      "destination": "wwwroot/jqueryValidate",
+      "files": ["jquery.validate.min.js"]
+    },
+    {
+      "library": "jquery-validation-unobtrusive@3.2.11",
+      "destination": "wwwroot/jqueryUnob",
+      "files": [ "jquery.validate.unobtrusive.min.js" ]
+
+>>>>>>> master
     }
   ]
 }
