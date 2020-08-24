@@ -29,28 +29,29 @@ namespace ToDo.Web
             }
 
             app.UseRouting();
-            
+
             app.UseCustomStaticFiles();
-<<<<<<< HEAD
 
-            app.UseEndpoints(endpoints => 
+
+            app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                    name:"default",
-                    pattern:"{controller=Home}/{action=Index}");
-=======
-           
-            app.UseEndpoints(endpoints => 
-            {
-                endpoints.MapControllerRoute(
-                    name:"areas",
-                    pattern :"{area}/{controller=Home}/{action=Index}/{id?}");
+                    name: "areas",
+                    pattern: "{area}/{controller=Home}/{action=Index}/{id?}");
 
                 endpoints.MapControllerRoute(
-                    name:"default",
-                    pattern:"{controller=Home}/{action=Index}/{id?}");
->>>>>>> master
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+
+                app.UseEndpoints(endpoints =>
+                {
+                    endpoints.MapControllerRoute(
+                        name: "default",
+                        pattern: "{controller=Home}/{action=Index}");
+
+                });
             });
-        }
+    }
     }
 }

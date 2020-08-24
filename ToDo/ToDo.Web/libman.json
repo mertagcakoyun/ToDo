@@ -24,9 +24,6 @@
       "files": [
         "jquery.min.js",
 <<<<<<< HEAD
-        "jquery.min.map"
-      ]
-=======
         "jquery.min.map",
         "jquery.js"
       ]
@@ -41,6 +38,9 @@
       "destination": "wwwroot/jqueryUnob",
       "files": [ "jquery.validate.unobtrusive.min.js" ]
 
+=======
+        "jquery.min.map"
+      ]
 >>>>>>> master
     }
   ]
