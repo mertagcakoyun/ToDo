@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hTfdDytEfRsZdUKeAzwTAFhGi3NaH/36FV5XddL8wRd6FaDZr6/NIjO5SFvIPQEoO62umElKVEv516Yte1Ekrw==",
+  "dgSpecHash": "XPpxxgUsnWqz3Khcl3w6e/CX7+nLfq4TLmfty0JSuQ3/51vskm2rXaAD0PNZwoF3jDIy64hnQbQ98Bj/PQU48g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj",
+  "projectFilePath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Medyasoft Digital\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.7\\microsoft.aspnetcore.cryptography.internal.3.1.7.nupkg.sha512",
     "C:\\Users\\Medyasoft Digital\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.7\\microsoft.aspnetcore.cryptography.keyderivation.3.1.7.nupkg.sha512",

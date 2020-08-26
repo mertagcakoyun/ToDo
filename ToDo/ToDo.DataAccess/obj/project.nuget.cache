@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tv1fX9KUBsOB+mlpwaCml3p1fnPT1Zh/WA3qzzzTt/WgaylEzp3SRZ19s4Tft0wk3nv9Y6xcxZRRbE1+utUwsQ==",
+  "dgSpecHash": "DMyajRkCN19dw1j+ubb6zmFM2xqDdBLJ3Wj6S0i/GiB9NwwsvLfc8RMC+VKNH0sL2r5eRP9M3+D6d0+i7ERTIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

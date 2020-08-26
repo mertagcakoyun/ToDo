@@ -16,12 +16,3 @@ C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.Entitie
 C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.Entities\obj\Debug\netcoreapp3.1\ToDo.Entities.dll
 C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.Entities\obj\Debug\netcoreapp3.1\ToDo.Entities.pdb
 C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.Entities\obj\Debug\netcoreapp3.1\ToDo.Entities.csproj.CoreCompileInputs.cache
-C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\MAK\ToDo\ToDo\ToDo.Entities\bin\Debug\netcoreapp3.1\ToDo.Entities.deps.json
-C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\MAK\ToDo\ToDo\ToDo.Entities\bin\Debug\netcoreapp3.1\ToDo.Entities.dll
-C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\MAK\ToDo\ToDo\ToDo.Entities\bin\Debug\netcoreapp3.1\ToDo.Entities.pdb
-C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\MAK\ToDo\ToDo\ToDo.Entities\obj\Debug\netcoreapp3.1\ToDo.Entities.csprojAssemblyReference.cache
-C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\MAK\ToDo\ToDo\ToDo.Entities\obj\Debug\netcoreapp3.1\ToDo.Entities.AssemblyInfoInputs.cache
-C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\MAK\ToDo\ToDo\ToDo.Entities\obj\Debug\netcoreapp3.1\ToDo.Entities.AssemblyInfo.cs
-C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\MAK\ToDo\ToDo\ToDo.Entities\obj\Debug\netcoreapp3.1\ToDo.Entities.csproj.CoreCompileInputs.cache
-C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\MAK\ToDo\ToDo\ToDo.Entities\obj\Debug\netcoreapp3.1\ToDo.Entities.dll
-C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\MAK\ToDo\ToDo\ToDo.Entities\obj\Debug\netcoreapp3.1\ToDo.Entities.pdb

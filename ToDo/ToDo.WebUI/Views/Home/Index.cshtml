@@ -1,8 +1,11 @@
 ﻿
 @{
     ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_LogInLogOutLayout.cshtml";
 }
 
 <h1>Index</h1>
+<a href="/Admin/Home/Index">Go to Admin Panel </a>
+<a asp-area="Member" asp-controller="Home" asp-action="Index">   Go to Member Panel   </a>
+
 

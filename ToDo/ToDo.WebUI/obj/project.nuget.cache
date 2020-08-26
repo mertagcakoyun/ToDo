@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TGDnBTVn8C1BhXWC/yWnTE3nLn4tXkKEvHPYBBXnyufcvUAwDh4sGKDNTlmDo7MG9YOu49GS/TCD1NrqhBwIyQ==",
+  "dgSpecHash": "cI1riyTp/cJadqXRpCxmxjdL+h5mewU/iN+jqkB6i8fuKTKAzHRgs6DGOuv42F5CxMWEBOMjZ+sFkwyhreCxIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.WebUI\\ToDo.WebUI.csproj",
+  "projectFilePath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.WebUI\\ToDo.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
