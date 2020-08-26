@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Text;
 using ToDo.Entities.Concrete;
 
-namespace ToDo.Business.Interfaces
+namespace ToDo.DataAccess.Interfaces
 {
-    interface IUserService : IGenericService<User>
-    {
-
+    public interface IReportDal : IGenericDal<Report>
+    { 
+    
     }
 }

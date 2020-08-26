@@ -14,6 +14,8 @@ namespace ToDo.DataAccess.Concrete.EntityFrameworkCore.Mapping
             builder.HasKey(I => I.Id);
             builder.Property(I => I.Id).UseIdentityColumn();
             builder.Property(I => I.Name).HasColumnType("ntext");
+            builder.HasOne(I => I.Priority).WithMany(I => I.Tasks).HasForeignKey(
+                I => I.PriorityId);
            
         }
     }

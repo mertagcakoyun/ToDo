@@ -1,43 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using ToDo.Business.Interfaces;
-using ToDo.DataAccess.Concrete.EntityFrameworkCore.Repositories;
+using ToDo.DataAccess.Interfaces;
 using ToDo.Entities.Concrete;
 
 namespace ToDo.Business.Concrete
 {
-    class TaskManager : ITaskService
+    public class TaskManager : ITaskService
     {
-        private readonly EfTaskRepository efTaskRepository;
+        private readonly ITaskDal _taskDal;
 
-        public TaskManager()
+        public TaskManager(ITaskDal taskDal)
         {
-            efTaskRepository = new EfTaskRepository();
+            _taskDal = taskDal;
         }
         public void Delete(Task table)
         {
-            efTaskRepository.Delete(table);
+            _taskDal.Delete(table);
         }
 
         public List<Task> GetAll()
         {
-            return efTaskRepository.GetAll();
+            return _taskDal.GetAll();
         }
 
         public Task GetWithId(int id)
         {
-            return efTaskRepository.GetWithId(id);
+            return _taskDal.GetWithId(id);
         }
 
         public void Save(Task table)
         {
-            efTaskRepository.Save(table);
+            _taskDal.Save(table);
         }
 
         public void Update(Task table)
         {
-            efTaskRepository.Update(table);
+            _taskDal.Update(table);
         }
     }
 }

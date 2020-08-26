@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
@@ -9,22 +11,29 @@ using ToDo.Entities.Concrete;
 
 namespace ToDo.DataAccess.Concrete.EntityFrameworkCore.Contexts
 {
-    public class ToDoContext : DbContext
+    public class ToDoContext : IdentityDbContext<AppUser, AppRole, int>
     {
-            protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("server=(localdb)\\MSSQLLocalDB; database=ToDoProject ; integrated security=true; "); //user id=sa; password=********;
-            
+            base.OnConfiguring(optionsBuilder);
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-           modelBuilder.ApplyConfiguration(new UserMap());
-           modelBuilder.ApplyConfiguration(new TaskMap());
+
+            modelBuilder.ApplyConfiguration(new AppUserMap());
+            modelBuilder.ApplyConfiguration(new PriorityMap());
+            modelBuilder.ApplyConfiguration(new ReportMap());
+            modelBuilder.ApplyConfiguration(new TaskMap());
+            
+            
+
+            base.OnModelCreating(modelBuilder);
         }
 
-        public DbSet<User> Users { get; set; }  
-        public DbSet<Task> Businesses { get; set; }
-
+        public DbSet<Task> Tasks { get; set; }
+        public DbSet<Priority> Priorities { get; set; }
+        public DbSet<Report> Reports { get; set; }
     }
-        
+
 }

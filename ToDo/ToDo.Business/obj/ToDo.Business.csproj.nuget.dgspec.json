@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Business\\ToDo.Business.csproj": {}
+    "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.Business\\ToDo.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Business\\ToDo.Business.csproj": {
+    "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.Business\\ToDo.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Business\\ToDo.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.Business\\ToDo.Business.csproj",
         "projectName": "ToDo.Business",
-        "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Business\\ToDo.Business.csproj",
+        "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.Business\\ToDo.Business.csproj",
         "packagesPath": "C:\\Users\\Medyasoft Digital\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Business\\obj\\",
+        "outputPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,67 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj",
-        "projectName": "ToDo.DataAccess",
-        "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Medyasoft Digital\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.DataAccess\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Medyasoft Digital\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj": {
-                "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj"
+              "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj"
               }
             }
           }
@@ -104,25 +45,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.6, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.6, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.6, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.7, )"
             }
           },
           "imports": [
@@ -144,14 +71,95 @@
         }
       }
     },
-    "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj": {
+    "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj",
-        "projectName": "ToDo.Entities",
-        "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj",
+        "projectName": "ToDo.DataAccess",
+        "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.DataAccess\\ToDo.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Medyasoft Digital\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Entities\\obj\\",
+        "outputPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Medyasoft Digital\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj": {
+                "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj",
+        "projectName": "ToDo.Entities",
+        "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj",
+        "packagesPath": "C:\\Users\\Medyasoft Digital\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -180,6 +188,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
