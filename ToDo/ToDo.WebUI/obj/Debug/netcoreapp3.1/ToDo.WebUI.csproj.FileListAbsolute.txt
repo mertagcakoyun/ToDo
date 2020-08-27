@@ -67,7 +67,6 @@ C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\o
 C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\ToDo.WebUI.TagHelpers.input.cache
 C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\ToDo.WebUI.TagHelpers.output.cache
 C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\ToDo.WebUI.RazorCoreGenerate.cache
-C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LogInLogOutLayout.cshtml.g.cs
 C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\ToDo.WebUI.RazorTargetAssemblyInfo.cache
 C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\ToDo.WebUI.RazorTargetAssemblyInfo.cs
@@ -157,3 +156,10 @@ C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\b
 C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_AdminLayout.cshtml.g.cs
 C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Member\Views\Shared\_MemberLayout.cshtml.g.cs
 C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Member\Views\Home\Index.cshtml.g.cs
+C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
+C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Priority\Index.cshtml.g.cs
+C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Priority\AddPriorityTask.cshtml.g.cs
+C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Priority\UpdatePriority.cshtml.g.cs
+C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Task\Index.cshtml.g.cs

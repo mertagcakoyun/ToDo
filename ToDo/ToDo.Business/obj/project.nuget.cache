@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jU4V1wo6Yga6W5TctzyptloTkDiUFBBBTrmubbbtjFNd9j+FVNAZ0+bmdmvmF/auHaw19Yrr/20r63C00QIilg==",
+  "dgSpecHash": "uFDqgU1+AaWDfTvv4NSIOkuP7yZMgTtA8WU6+c7HHxw7wkyCeQFbf2j/ZLQs8nDFM7zXZ/bUEohAy9cEVN66tw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.Business\\ToDo.Business.csproj",
+  "projectFilePath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Business\\ToDo.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

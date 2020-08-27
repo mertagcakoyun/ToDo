@@ -9,8 +9,11 @@ namespace ToDo.WebUI.Areas.Admin.Controllers
     [Area("Admin")]
     public class HomeController : Controller
     {
+        
         public IActionResult Index()
         {
+            TempData["Active"] = "task";
+            
             return View();
         }
     }
