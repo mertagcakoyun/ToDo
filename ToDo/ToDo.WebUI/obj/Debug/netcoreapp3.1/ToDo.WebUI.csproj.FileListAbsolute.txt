@@ -163,3 +163,4 @@ C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\o
 C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Priority\AddPriorityTask.cshtml.g.cs
 C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Priority\UpdatePriority.cshtml.g.cs
 C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Task\Index.cshtml.g.cs
+C:\Users\Medyasoft Digital\Desktop\Medyasoft Proje\github\ToDo\ToDo\ToDo.WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Task\AddTask.cshtml.g.cs

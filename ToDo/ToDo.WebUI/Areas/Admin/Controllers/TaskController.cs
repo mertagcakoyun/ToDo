@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using ToDo.Business.Interfaces;
 using ToDo.Entities.Concrete;
 using ToDo.WebUI.Areas.Admin.Models;
@@ -9,10 +10,12 @@ namespace ToDo.WebUI.Areas.Admin.Controllers
     [Area("Admin")]
     public class TaskController : Controller
     {
-        ITaskService _taskService;
-        public TaskController(ITaskService taskService)
+        private readonly ITaskService _taskService;
+        private readonly IPriorityService _priorityService;
+        public TaskController(ITaskService taskService, IPriorityService priorityService)
         {
             _taskService = taskService;
+            _priorityService = priorityService;
         }
 
         public IActionResult Index()
@@ -22,7 +25,7 @@ namespace ToDo.WebUI.Areas.Admin.Controllers
             List<TaskListViewModel> model = new List<TaskListViewModel>();
             if (ModelState.IsValid)
             {
-                
+
                 foreach (var item in tasks)
                 {
                     TaskListViewModel taskModel = new TaskListViewModel  //out of foreach
@@ -45,25 +48,38 @@ namespace ToDo.WebUI.Areas.Admin.Controllers
         }
         public IActionResult AddTask()
         {
+            TempData["Active"] = "task";
+            ViewBag.Priorities = new SelectList(_priorityService.GetAll(), "Id", "Description");
 
-            return View();
+            return View(new TaskAddViewModel());
         }
         [HttpPost]
         public IActionResult AddTask(TaskAddViewModel model)
         {
+            if (ModelState.IsValid)
+            {
+                _taskService.Save(new Task
+                {
+                    Description = model.Description,
+                    Name = model.Name,
+                    PriorityId = model.PriorityId
 
-            return View();
-        }
-        public IActionResult UpdateTask()
-        {
-
-            return View();
-        }
-        [HttpPost]
-        public IActionResult UpdateTask(PriorityUpdateViewModel model)
-        {
-
-            return View();
-        }
+                });
+                return RedirectToAction("Index");
+            }
+           return View(model);
     }
+
+    public IActionResult UpdateTask()
+    {
+
+        return View();
+    }
+    [HttpPost]
+    public IActionResult UpdateTask(PriorityUpdateViewModel model)
+    {
+
+        return View();
+    }
+}
 }

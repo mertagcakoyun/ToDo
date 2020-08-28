@@ -11,7 +11,7 @@
     <table class="table table-sm table-hover">
         <thead>
             <tr>
-                <th>Description</th>
+                <th>Priority Type</th>
                 <th>Process</th>
             </tr>
         </thead>
@@ -20,7 +20,7 @@
             {
                 <tr>
                     <td> @item.Description</td>
-                    <td> <a asp-action="UpdatePriority" asp-controller="Priority" id="@item.Id"
+                    <td> <a asp-action="UpdatePriority" asp-controller="Priority" asp-route-id="@item.Id"
                             class="btn btn-warning btn-sm"> Update </a></td>
                 </tr>
 

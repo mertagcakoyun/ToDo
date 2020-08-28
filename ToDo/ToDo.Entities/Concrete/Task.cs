@@ -12,7 +12,7 @@ namespace ToDo.Entities.Concrete
         public string Name { get; set; }
         public string Description { get; set; }
         public bool Status { get; set; }
-        public DateTime DateCreated { get; set; }
+        public DateTime DateCreated { get; set; } = DateTime.Now;
 
         public int PriorityId { get; set; }
         public Priority Priority { get; set; }

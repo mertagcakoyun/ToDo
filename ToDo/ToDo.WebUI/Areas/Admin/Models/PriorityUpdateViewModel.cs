@@ -9,7 +9,6 @@ namespace ToDo.WebUI.Areas.Admin.Models
     public class PriorityUpdateViewModel
     {
         public int Id { get; set; }
-
         [Display(Name ="Description")]
         [Required(ErrorMessage ="You must enter Description")]
         public string Description { get; set; }

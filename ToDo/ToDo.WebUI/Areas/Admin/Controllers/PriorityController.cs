@@ -25,8 +25,6 @@ namespace ToDo.WebUI.Areas.Admin.Controllers
                 priorityModel.Id = item.Id;
                 priorityModel.Description = item.Description;
                 model.Add(priorityModel);
-
-
             }
             return View(model);
         }

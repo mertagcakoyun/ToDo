@@ -1,5 +1,7 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 using ToDo.Entities.Concrete;
@@ -9,16 +11,13 @@ namespace ToDo.WebUI.Areas.Admin.Models
     public class TaskAddViewModel
     {
 
-        public int Id { get; set; }
+       [Required(ErrorMessage ="Please enter task name")]
         public string Name { get; set; }
         public string Description { get; set; }
-        public bool Status { get; set; }
-        public DateTime DateCreated { get; set; }
-
+       [Range(0,int.MaxValue,ErrorMessage ="Please select priority status")]
         public int PriorityId { get; set; }
-        public Priority Priority { get; set; }
-        public int? AppUserId { get; set; } //Nullable<int>    1-n 
-        public AppUser AppUser { get; set; }
+        
+
 
     }
 }
