@@ -7,5 +7,6 @@ namespace ToDo.DataAccess.Interfaces
 {
     public interface IPriorityDal : IGenericDal<Priority>
     {
+      
     }
 }

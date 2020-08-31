@@ -23,6 +23,11 @@ namespace ToDo.Business.Concrete
             return _taskDal.GetAll();
         }
 
+        public List<Task> GetUncomplatedWithPriority()
+        {
+           return _taskDal.GetUncomplatedWithPriority();
+        }
+
         public Task GetWithId(int id)
         {
             return _taskDal.GetWithId(id);

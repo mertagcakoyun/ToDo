@@ -42,7 +42,7 @@ namespace ToDo.DataAccess.Concrete.EntityFrameworkCore.Repositories
         {
             using var context = new ToDoContext();
             context.Set<Table>().Update(table);
-            context.Set<Table>().Update(table);
+            
             context.SaveChanges();
         }
     }

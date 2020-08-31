@@ -21,7 +21,7 @@ namespace ToDo.WebUI.Areas.Admin.Controllers
         public IActionResult Index()
         {
             TempData["Active"] = "task";
-            List<Task> tasks = _taskService.GetAll();
+            List<Task> tasks = _taskService.GetUncomplatedWithPriority();
             List<TaskListViewModel> model = new List<TaskListViewModel>();
             if (ModelState.IsValid)
             {
@@ -67,19 +67,46 @@ namespace ToDo.WebUI.Areas.Admin.Controllers
                 });
                 return RedirectToAction("Index");
             }
-           return View(model);
-    }
+            return View(model);
+        }
 
-    public IActionResult UpdateTask()
-    {
+        public IActionResult UpdateTask(int id)
+        {
+            TempData["Active"] = "task";
+            var task = _taskService.GetWithId(id);
+            TaskUpdateViewModel model = new TaskUpdateViewModel
+            {
+                Id = task.Id,
+                Name = task.Name,
+                Description = task.Description,
+                PriorityId = task.PriorityId
+            };
+            ViewBag.Tasks = new SelectList(_priorityService.GetAll(), "Id", "Description", task.PriorityId);
+            return View(model);
+        }
+        [HttpPost]
+        public IActionResult UpdateTask(TaskUpdateViewModel model)
+        {
+            
+            if (ModelState.IsValid)
+            {
+                _taskService.Update(new Task
+                {
+                    Id = model.Id,
+                    Name=model.Name,
+                    Description=model.Description,
+                    PriorityId=model.PriorityId
+                });
+                return RedirectToAction("Index");
+            }
+            return View(model);
+        }
 
-        return View();
+        public IActionResult DeleteTask(int id)
+        {
+            
+            _taskService.Delete(new Task { Id = id });
+            return Json(null);
+        }
     }
-    [HttpPost]
-    public IActionResult UpdateTask(PriorityUpdateViewModel model)
-    {
-
-        return View();
-    }
-}
 }

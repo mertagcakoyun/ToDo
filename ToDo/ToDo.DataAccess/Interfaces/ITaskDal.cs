@@ -5,6 +5,8 @@ namespace ToDo.DataAccess.Interfaces
 {
     public interface ITaskDal : IGenericDal<Task>
     {
-        
+        List<Task> GetUncomplatedWithPriority();
+       
+
     }
 }
