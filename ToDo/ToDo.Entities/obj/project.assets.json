@@ -818,11 +818,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj",
       "projectName": "ToDo.Entities",
-      "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj",
+      "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.Entities\\ToDo.Entities.csproj",
       "packagesPath": "C:\\Users\\Medyasoft Digital\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Entities\\obj\\",
+      "outputPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

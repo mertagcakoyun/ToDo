@@ -9214,11 +9214,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.WebUI\\ToDo.WebUI.csproj",
+      "projectUniqueName": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.WebUI\\ToDo.WebUI.csproj",
       "projectName": "ToDo.WebUI",
-      "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.WebUI\\ToDo.WebUI.csproj",
+      "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.WebUI\\ToDo.WebUI.csproj",
       "packagesPath": "C:\\Users\\Medyasoft Digital\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.WebUI\\obj\\",
+      "outputPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9237,8 +9237,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Business\\ToDo.Business.csproj": {
-              "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\github\\ToDo\\ToDo\\ToDo.Business\\ToDo.Business.csproj"
+            "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.Business\\ToDo.Business.csproj": {
+              "projectPath": "C:\\Users\\Medyasoft Digital\\Desktop\\Medyasoft Proje\\MAK\\ToDo\\ToDo\\ToDo.Business\\ToDo.Business.csproj"
             }
           }
         }

@@ -9,6 +9,7 @@ namespace ToDo.Entities.Concrete
     {
         public string Name { get; set; }
         public string Surname { get; set; }
+        public string PictureURL { get; set; }
         public List<Task> Tasks { get; set; }
     }
 }

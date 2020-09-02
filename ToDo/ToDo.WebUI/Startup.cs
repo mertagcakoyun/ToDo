@@ -1,8 +1,10 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Routing.Template;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System;
 using System.Runtime.InteropServices.ComTypes;
 using ToDo.Business.Concrete;
 using ToDo.Business.Interfaces;
@@ -31,11 +33,30 @@ namespace ToDo.WebUI
             services.AddScoped<IPriorityDal, EfPriorityRepository>();
 
             services.AddDbContext<ToDoContext>();
-            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<ToDoContext>();
+            services.AddIdentity<AppUser, AppRole>(opt =>
+            {
+                opt.Password.RequireDigit = false;
+                opt.Password.RequireUppercase = false;
+                opt.Password.RequireLowercase = false;
+                opt.Password.RequireNonAlphanumeric = false;
+                opt.Password.RequiredLength = 3;
+            }
+            ).AddEntityFrameworkStores<ToDoContext>();
+
+            services.ConfigureApplicationCookie(opt =>
+            {
+                opt.Cookie.Name = "ToDoCookie";
+                opt.Cookie.SameSite = Microsoft.AspNetCore.Http.SameSiteMode.Strict;
+                opt.Cookie.HttpOnly = true;
+                opt.ExpireTimeSpan = TimeSpan.FromDays(10);
+                opt.Cookie.SecurePolicy = Microsoft.AspNetCore.Http.CookieSecurePolicy.SameAsRequest;
+                opt.LoginPath = "Home/Index";
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,
+            UserManager<AppUser> userManager,RoleManager<AppRole> roleManager)
         {
             if (env.IsDevelopment())
             {
@@ -45,7 +66,9 @@ namespace ToDo.WebUI
             app.UseRouting();
             app.UseRouting();
             app.UseStaticFiles();
-
+            
+            IdentityInitializer.SeedData(userManager, roleManager).Wait();
+            
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
